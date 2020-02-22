@@ -1,0 +1,77 @@
+
+
+
+body {
+    margin: 0;
+    background:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+@media (max-width:450px) {
+    .header img {
+        max-width: 150px;
+        height: auto;
+
+    }
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+
+    }
+
+}
+
+
+.header {
+    background-color:whitesmoke;
+   
+    font-size: large;
+
+}
+
+
+.team {
+    background: white url(teamimages/teamall.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 55px);
+    margin-bottom: 30px;
+
+}
+
+
+ .about-team{
+    margin: 40px;
+    border: black solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    color: red;
+    font-weight: bold;
+}
+h2{
+    font-size: 60px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+    
+    

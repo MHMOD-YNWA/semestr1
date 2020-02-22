@@ -1,0 +1,96 @@
+
+
+body {
+    margin: 0;
+    background: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+h3{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-lg-4 {
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+@media (max-width:450px) {
+    .header img {
+        max-width: 150px;
+        height: auto;
+
+    }
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+
+    }
+
+}
+
+
+.header {
+    background-color: whitesmoke;
+
+    font-size: large;
+
+}
+
+.shop {
+    background: white url(shopimages/shopcover.jpg) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 55px);
+    margin-bottom: 30px;
+
+}
+
+.ynwa-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 30px;
+}
+
+.collection .container {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+
+}
+.traning-collection{
+    margin: 30px;
+}
+
+
+.discounts{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+
+
